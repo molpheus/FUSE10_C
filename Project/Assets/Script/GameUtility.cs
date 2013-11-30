@@ -14,7 +14,18 @@ public class GameUtility
 	static public int length = 0;
 
     // スコア.
-    static public int score = 0;
+	static public int _score = 0;
+    static public int score
+	{
+		get{return _score;}
+		set
+		{
+			int num = _score + value;
+			if (num >= MAX_SCORE) { num = MAX_SCORE; }
+			_score = num;
+		}
+	}
+	static readonly int MAX_SCORE = 9999999;
     // 最高スコア.
     static public int maxScore = 0;
 

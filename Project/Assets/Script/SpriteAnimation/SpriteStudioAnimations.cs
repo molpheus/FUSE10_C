@@ -9,6 +9,7 @@ public class SpriteStudioAnimations : MonoBehaviour {
 	{
 		if(sprites == null)
 		{
+
 		}
 	}
 	

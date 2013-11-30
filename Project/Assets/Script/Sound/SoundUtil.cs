@@ -601,7 +601,7 @@ public class SoundUtil : MonoBehaviour {
 	/*--------------------------------------------------*/
 	public void SetLoop2D(int number, bool flg)
 	{
-		if(_datas2D.Count != 0){return;}
+		if(_datas2D.Count == 0){return;}
 		_datas2D[number].SetLoop(flg);
 
 	}
@@ -614,7 +614,7 @@ public class SoundUtil : MonoBehaviour {
 	/*--------------------------------------------------*/
 	public void SetLoop3D(int number, bool flg)
 	{
-		if (_datas3D.Count != 0) { return; }
+        if (_datas3D.Count == 0) { return; }
 		_datas3D[number].SetLoop(flg);
 	}
 	/*--------------------------------------------------*/
@@ -651,7 +651,7 @@ public class SoundUtil : MonoBehaviour {
 	/*--------------------------------------------------*/
 	public void SetLStartTime2D(int number, float seek)
 	{
-		if (_datas2D.Count != 0) { return; }
+        if (_datas2D.Count == 0) { return; }
 		_datas2D[number].SetStartSeek(seek);
 
 	}
@@ -664,7 +664,7 @@ public class SoundUtil : MonoBehaviour {
 	/*--------------------------------------------------*/
 	public void SetLStartTime3D(int number, float seek)
 	{
-		if (_datas3D.Count != 0) { return; }
+        if (_datas3D.Count == 0) { return; }
 		_datas3D[number].SetStartSeek(seek);
 	}
 	/*--------------------------------------------------*/
@@ -701,7 +701,7 @@ public class SoundUtil : MonoBehaviour {
 	/*--------------------------------------------------*/
 	public void SetLEndTime2D(int number, float seek)
 	{
-		if (_datas2D.Count != 0) { return; }
+        if (_datas2D.Count == 0) { return; }
 		_datas2D[number].SetEndSeek(seek);
 
 	}
@@ -714,7 +714,7 @@ public class SoundUtil : MonoBehaviour {
 	/*--------------------------------------------------*/
 	public void SetLEndTime3D(int number, float seek)
 	{
-		if (_datas3D.Count != 0) { return; }
+        if (_datas3D.Count == 0) { return; }
 		_datas3D[number].SetEndSeek(seek);
 	}
 	/*--------------------------------------------------*/
@@ -750,7 +750,7 @@ public class SoundUtil : MonoBehaviour {
 	/*--------------------------------------------------*/
 	public void SetPause2D(int number)
 	{
-		if (_datas2D.Count != 0) { return; }
+        if (_datas2D.Count == 0) { return; }
 		_datas2D[number].Pause();
 
 	}
@@ -762,7 +762,7 @@ public class SoundUtil : MonoBehaviour {
 	/*--------------------------------------------------*/
 	public void SetPause3D(int number)
 	{
-		if (_datas3D.Count != 0) { return; }
+        if (_datas3D.Count == 0) { return; }
 		_datas3D[number].Pause();
 	}
 	/*--------------------------------------------------*/
@@ -814,7 +814,7 @@ public class SoundUtil : MonoBehaviour {
 	/*--------------------------------------------------*/
 	public void SetStop2D(int number)
 	{
-		if (_datas2D.Count != 0) { return; }
+        if (_datas2D.Count == 0) { return; }
 		_datas2D[number].Stop();
 
 	}
@@ -826,7 +826,7 @@ public class SoundUtil : MonoBehaviour {
 	/*--------------------------------------------------*/
 	public void SetStop3D(int number)
 	{
-		if (_datas3D.Count != 0) { return; }
+        if (_datas3D.Count == 0) { return; }
 		_datas3D[number].Stop();
 	}
 	/*--------------------------------------------------*/
@@ -1398,6 +1398,11 @@ public class SoundUtilData
 				else { Stop(); }
 			}
 		}
+        else
+        {
+            if (_source.loop) { Play(); }
+            else { Stop(); }
+        }
 	}
 
 	/*--------------------------------------------------*/

@@ -11,6 +11,7 @@ public class SoundManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		SoundUtil.instance.Play2D((int)SOUND.BGM);
+        SoundUtil.instance.SetLoop2D((int)SOUND.BGM, true);
 	}
 	
 	// Update is called once per frame

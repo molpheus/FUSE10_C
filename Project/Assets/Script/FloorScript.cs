@@ -14,10 +14,10 @@ public class FloorScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		// 床をX軸方向に移動
-		transform.position += new Vector3(spd, 0, 0);
+		transform.position += new Vector3(spd * GameUtility.speed, 0, 0);
 
 		// 床が指定位置まで来たら削除
-		if(transform.position.x >= 40) {
+		if(transform.position.x >= 50) {
 			transform.position = new Vector3(0,0,0);
 		}
 	}

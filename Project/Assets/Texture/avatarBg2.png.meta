@@ -49,7 +49,7 @@ TextureImporter:
         width: 80
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: avatarBg2_1
       rect:
         serializedVersion: 2
@@ -58,7 +58,7 @@ TextureImporter:
         width: 80
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: avatarBg2_2
       rect:
         serializedVersion: 2
@@ -67,7 +67,7 @@ TextureImporter:
         width: 80
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: avatarBg2_3
       rect:
         serializedVersion: 2
@@ -76,43 +76,43 @@ TextureImporter:
         width: 80
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: avatarBg2_4
       rect:
         serializedVersion: 2
         x: 0
         y: 100
-        width: 80
+        width: 86
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: avatarBg2_5
       rect:
         serializedVersion: 2
-        x: 80
+        x: 73
         y: 100
-        width: 80
+        width: 99
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: avatarBg2_6
       rect:
         serializedVersion: 2
-        x: 160
+        x: 149
         y: 100
-        width: 80
+        width: 103
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: avatarBg2_7
       rect:
         serializedVersion: 2
-        x: 240
+        x: 232
         y: 100
-        width: 80
+        width: 88
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: avatarBg2_8
       rect:
         serializedVersion: 2
@@ -121,7 +121,7 @@ TextureImporter:
         width: 80
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: avatarBg2_9
       rect:
         serializedVersion: 2
@@ -130,7 +130,7 @@ TextureImporter:
         width: 80
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: avatarBg2_10
       rect:
         serializedVersion: 2
@@ -139,7 +139,7 @@ TextureImporter:
         width: 80
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: avatarBg2_11
       rect:
         serializedVersion: 2
@@ -148,7 +148,7 @@ TextureImporter:
         width: 80
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: avatarBg2_12
       rect:
         serializedVersion: 2
@@ -157,7 +157,7 @@ TextureImporter:
         width: 80
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: avatarBg2_13
       rect:
         serializedVersion: 2
@@ -166,7 +166,7 @@ TextureImporter:
         width: 80
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: avatarBg2_14
       rect:
         serializedVersion: 2
@@ -175,7 +175,7 @@ TextureImporter:
         width: 80
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: avatarBg2_15
       rect:
         serializedVersion: 2
@@ -184,6 +184,6 @@ TextureImporter:
         width: 80
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
   spritePackingTag: 
   userData: 

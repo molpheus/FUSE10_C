@@ -14,7 +14,7 @@ public class BackGroundScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		// 背景をX軸方向に移動
-		transform.position += new Vector3(spd, 0, 0);
+		transform.position += new Vector3(spd * GameUtility.speed, 0, 0);
 
 		// 背景が指定位置まで来たら削除
 		if(transform.position.x >= 40) {

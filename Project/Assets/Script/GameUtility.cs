@@ -29,6 +29,9 @@ public class GameUtility
     // 最高スコア.
     static public int maxScore = 0;
 
+	// スピードコントロール.
+	static public float speed = 1f;
+
 	/*
 	 * データの初期化.
 	 * */

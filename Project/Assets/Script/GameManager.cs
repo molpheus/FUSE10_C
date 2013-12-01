@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{
-		if(cnt % 25 == 0)
+		if(cnt % 60 == 0)
 		{
 			if (prefubObj.Length != 0)
 			{

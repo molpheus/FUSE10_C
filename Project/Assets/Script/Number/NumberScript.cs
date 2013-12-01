@@ -7,7 +7,7 @@ public class NumberScript : MonoBehaviour {
 	public Sprite[] numbers;
 
 	// Use this for initialization
-	void Start (){
+	void Awake (){
 				if (numbers.Length == 0) {
 						Debug.Log ("Not number Error");
 				}
